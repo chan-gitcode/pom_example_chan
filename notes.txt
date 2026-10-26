@@ -1,0 +1,6 @@
+.\venv\Scripts\activate
+source .venv/bin/activate
+pytest --headed tests/test_first_demo.py
+
+pytest --headed
+pytest --headed --html=report.html tests/test_first_demo.py
