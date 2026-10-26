@@ -4,3 +4,4 @@ pytest --headed tests/test_first_demo.py
 
 pytest --headed
 pytest --headed --html=report.html tests/test_first_demo.py
+pytest --headed .\tests\API\test_api.py -s
