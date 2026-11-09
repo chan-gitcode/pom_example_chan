@@ -1,7 +1,7 @@
 from .base_api import BaseAPI
 
 class userAPI(BaseAPI):
-    def get_user(self):
+    def get_user_all(self):
         return self.request.get("/api/user")
 
     def create_user(self, token, payload):
